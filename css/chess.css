@@ -1,0 +1,124 @@
+body{
+background-image:url("https://wallpaperaccess.com/full/1307130.jpg");
+z-index: -1;
+}
+.row{
+  padding-right:10px;
+}
+/*    class bca*/
+.bca{
+      color: white;
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2a1VIntC06eu7No6lpnLdYIy0HqZejvZgQ&usqp=CAU"); */
+     font-family: 'Merriweather', serif;
+    font-style: italic;
+    display:flex;
+    font-size:50px;
+    justify-content: center;
+    }
+.bca h2{
+        padding-top: 15px;
+      }
+    .fa-chess{
+      color:#FFFACD;
+      }
+
+    /*    class position*/
+    .position{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color:white;
+    text-align: right;
+    }   .position h4{
+      color: #FFC0CB;
+        border:1px solid graytext;
+        font-family: 'Updock', cursive;
+        text-align: center;
+        font-size: 30px;
+      }
+      .position h6{
+        padding-right: 110px;
+      }
+      /*    class quotes*/
+      .quotes{
+          color:aqua;
+          font-family: 'Merriweather', serif;
+          font-style: italic;
+        }
+       /* .lists {
+          display:inline-flex;
+          font-size: 18px;
+      } */
+      #one{
+        padding-left: 30px;
+          padding-right: 300px;
+      }
+
+.quotes p{
+  display: inline-flex;
+  font-size: 15px;
+}
+
+      /*IMAGES*/
+      img{
+          margin-left: 10px;
+      }
+      .slides{
+        text-align: right;
+      }
+      /*BUTTONS*/
+.shows{
+    justify-content: center;
+    space-between:around;
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 10px;
+    cursor:pointer;
+    position: relative;
+}
+.shows input{
+    color:black;
+    border:3px solid #0099ff;
+}
+input:hover{
+    color:red;
+    border-color:lime;
+}
+#frst{
+    margin-right: 20px;
+}
+/*FOOTER*/
+footer{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color:white;
+    text-align: center;
+   }
+.footer-body{
+    position: absolute;
+    padding: 3px 40px 0px 10px;
+    right:0;
+    left:0;
+   background-color:#36454F;
+      }
+.footer-content {
+    margin:auto;
+      }
+.footers{
+    font-size: 15px;
+    display: inline;
+    padding-left: 40px ;
+    list-style: none;
+      }
+      
+      .footers i{
+          font-size: 20px;
+      }
+      .footers a{
+          color:white;
+      }
+      .footers a:hover{
+          color:aquamarine;
+      }
+.fa-solid{
+  color:#7FFF00;
+}
